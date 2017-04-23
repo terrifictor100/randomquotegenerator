@@ -1,0 +1,77 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500);
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+  margin: 0 0 100px;
+  font-family: 'Raleway', sans-serif;
+  background-color: #77B1A9;
+  color: #77B1A9;
+}
+
+#quote_display {
+  background-color: white;
+  width: 450px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border-radius: 10px;
+  padding: 30px;
+  position: relative;
+
+}
+
+  #text {
+    font-size: 25px;
+ 
+  }
+  
+  .quote-author {
+  text-align: right;
+  font-size: 1em;
+  margin-bottom: 15px;
+  }
+  
+  .btn:focus, .btn:active:focus, .btn.active:focus{
+    outline:none;
+    box-shadow:none;
+}
+  
+  
+  .btn {
+  float: right;
+  position: relative;
+  background: none;
+	padding: 12px 22px;
+  border: 2px solid #77B1A9;
+  border-radius: 10px;
+	color: #77B1A9;
+  }
+  
+ 
+
+  twitter-share-button {
+    color: #77B1A9;
+  }
+
+
+
+.footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    color: white;
+  }
+
+.footer.a {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
