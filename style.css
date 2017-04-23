@@ -56,9 +56,7 @@ body {
     color: #77B1A9;
   }
 
-
-
-.footer {
+.tors_footer {
     position: absolute;
     left: 0;
     bottom: 0;
@@ -67,11 +65,11 @@ body {
     color: white;
   }
 
-.footer.a {
+.tors_href {
     color: white;
     margin: 0;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
   }
